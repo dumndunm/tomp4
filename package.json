@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "src/index.js",
+  "bin": {
+    "tomp4": "src/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
