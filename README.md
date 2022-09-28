@@ -23,5 +23,5 @@ npm pack
 
 - install the received package globally `(tomp4-1.0.0.tgz)`
 ```sh
-npm install absolute/path/to/tomp4-1.0.0.tgz
+npm install -g absolute/path/to/tomp4-1.0.0.tgz
 ```

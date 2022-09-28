@@ -1,13 +1,25 @@
 {
   "name": "tomp4",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": ".mov to .mp4 converter",
   "type": "module",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "bin": {
-    "tomp4": "src/index.js"
+    "tomp4": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:package": "npm pack",
+    "i:package": "npm run build && npm pack && npm i -g ./tomp4-0.0.0.tgz"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
 }
